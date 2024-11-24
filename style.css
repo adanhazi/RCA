@@ -4,10 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: inherit;
+    font-size: inherit;
 }
 
 html, body {
-    font-size: 100%; /* Ensures consistent font size across browsers */
+    font-size: 16px; /* Ensures consistent font size across browsers */
     line-height: 1.5; /* Set a baseline for readability */
     color: #333;
     background-color: #f4f4f4;
