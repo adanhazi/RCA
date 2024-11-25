@@ -21,6 +21,29 @@ body {
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Georgia:ital,wght@0,400;1,400&display=swap');
 
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400; /* Regular weight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+    font-weight: 700; /* Bold weight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Georgia-Regular.woff2') format('woff2'),
+         url('../fonts/Georgia-Regular.woff') format('woff'),
+         url('./fonts/Oswald/static/Oswald-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
 /* Global Typography */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
